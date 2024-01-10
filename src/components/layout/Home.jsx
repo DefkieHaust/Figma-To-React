@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
     <>    
-      <Container style={{ zIndex: -1,position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)", height: "auto", maxWidth: "800px"}}>
+      <Container style={{ zIndex: -1,position: "fixed", bottom: "50%", left: "50%", transform: "translate(-50%, 50%)", height: "auto", maxWidth: "800px"}}>
         <Typography variant="h1" sx={[isMediumScreen ? {fontSize: "5rem", lineHeight: "5rem"} : {fontSize: '7.5rem', lineHeight: "7.5rem"}]} style={{ position:"relative", textAlign: 'center', wordWrap: 'break-word', fontWeight: "500", background: "linear-gradient(to right, #ffffff, #cfcfcf, #9d9d9d,#6e6e6e)", "-webkit-text-fill-color": "transparent", "-webkit-background-clip": "text"}}>
           The ultra modern creative connection.
         </Typography>
