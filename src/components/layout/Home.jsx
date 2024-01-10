@@ -15,9 +15,9 @@ const Home = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias atque, earum quam soluta perspiciatis eaque eos ab obcaecati maxime ad. Nam voluptate illo deleniti, nemo consectetur architecto quibusdam ipsam iure nulla! Suscipit, maxime numquam? Vitae qui, voluptatem quos?
         </Typography>
       </Container>
-      <Link to="/join" style={{ position: "fixed", left: "50%", bottom: "8%",  transform: "translate(-50%, -50%)", zIndex: -1}}>
+      { isMediumScreen && <Link to="/join" style={{ position: "fixed", left: "50%", bottom: "8%",  transform: "translate(-50%, -50%)", zIndex: -1}}>
         <Button style={{ fontSize: "1.2rem", height: "50px", borderRadius: 28, background: "transparent", border: "1px solid #8b8b8b", color: "#fff", padding: "20px"}}>Sign up</Button>
-      </Link>
+      </Link>}
       <Box style={{marginTop: "100vh"}}>
         <GradientBg>
           <Box style={{ position: "relative", top: "50%", left: "50%", transform: "translate(-50%, -50%)", height: "auto", maxWidth: "800px"}}>
